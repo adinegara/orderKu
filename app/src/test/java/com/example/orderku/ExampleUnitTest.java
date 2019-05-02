@@ -1,4 +1,4 @@
-package com.example.android.orderku;
+package com.example.orderku;
 
 import org.junit.Test;
 

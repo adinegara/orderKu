@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "969096952522",
+    "firebase_url": "https://orderku0.firebaseio.com",
+    "project_id": "orderku0",
+    "storage_bucket": "orderku0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969096952522:android:e5201fe1b5a9d0b8",
+        "android_client_info": {
+          "package_name": "com.example.orderku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969096952522-9oe7brrrpc40f822k5r6pksiopmnlh0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCykXFI7x9hgHqbosw6NULBzFT3xU1rwMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969096952522-9oe7brrrpc40f822k5r6pksiopmnlh0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -14,17 +14,54 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="60dp"
-        android:text="@string/signin"
+        android:text="Register"
         android:textColor="@android:color/white"
         android:textSize="36dp" />
+    <!--<TextView-->
+        <!--android:id="@+id/name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Nama lengkap"-->
+        <!--android:textSize="18dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--tools:layout_editor_absoluteX="160dp"-->
+        <!--tools:layout_editor_absoluteY="265dp" />-->
 
+    <!--<EditText-->
+        <!--android:id="@+id/editText_name"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="text" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/username"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Username"-->
+        <!--android:textSize="18dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--tools:layout_editor_absoluteX="160dp"-->
+        <!--tools:layout_editor_absoluteY="265dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText_username"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="text" />-->
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Email"
-        android:textSize="24dp"
+        android:textSize="18dp"
         android:textColor="@android:color/white"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="265dp" />
@@ -47,7 +84,7 @@
         android:textColor="@android:color/white"
         android:layout_marginTop="25dp"
         android:text="@string/pw"
-        android:textSize="24dp"
+        android:textSize="18dp"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="265dp" />
 
@@ -62,29 +99,30 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button_signin"
+        android:id="@+id/button_register"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textColor="@android:color/holo_blue_light"
-        android:text="@string/signin"
+        android:text="@string/register"
         android:background="@android:color/background_light"/>
 
     <TextView
         android:id="@+id/no_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/question"
+        android:text="@string/question2"
         android:textColor="@android:color/white"
         android:textAlignment="center" />
 
     <TextView
-        android:id="@+id/textviewRegister"
+        android:id="@+id/textviewLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/white"
-        android:text="@string/register"
+        android:text="@string/signin"
         android:textAlignment="center" />
+
 
 </LinearLayout>

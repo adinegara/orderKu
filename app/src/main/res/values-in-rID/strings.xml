@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OrderKu</string>
+    <string name="signin">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="pw">Kata sandi</string>
+    <string name="question">Belum punya akun?</string>
+    <string name="question2">Sudah punya akun?</string>
+</resources>
