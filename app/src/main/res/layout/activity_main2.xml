@@ -65,8 +65,13 @@
                 tools:layout_conversion_absoluteHeight="0dp"
                 tools:layout_editor_absoluteY="93dp"
                 tools:layout_editor_absoluteX="0dp"
-                tools:layout_conversion_absoluteWidth="0dp" />
-
+                tools:layout_conversion_absoluteWidth="0dp"/>
+            <!--<Spinner-->
+                <!--android:id="@+id/ekspedisi"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Pilih Ekspedisi"-->
+                <!--/>-->
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem2"
                 android:layout_width="wrap_content"
@@ -86,6 +91,7 @@
                 tools:layout_editor_absoluteY="93dp"
                 tools:layout_editor_absoluteX="274dp"
                 tools:layout_conversion_absoluteWidth="0dp" />
+
 
         </android.support.design.widget.TabLayout>
     </android.support.design.widget.AppBarLayout>
