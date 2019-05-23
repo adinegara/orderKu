@@ -62,21 +62,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cek Resi"
-                />
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_editor_absoluteY="93dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_conversion_absoluteWidth="0dp" />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Perkembangan"
-                />
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_editor_absoluteY="93dp"
+                tools:layout_editor_absoluteX="137dp"
+                tools:layout_conversion_absoluteWidth="0dp" />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tersimpan"
-                />
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_editor_absoluteY="93dp"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_conversion_absoluteWidth="0dp" />
 
         </android.support.design.widget.TabLayout>
     </android.support.design.widget.AppBarLayout>

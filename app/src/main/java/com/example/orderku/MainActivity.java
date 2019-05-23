@@ -52,7 +52,7 @@ private void loginUser(){
         Toast.makeText(this, "Masukkan password", Toast.LENGTH_SHORT).show();
         return;
     }
-    progressDialog.setMessage("Mendaftarkan...");
+    progressDialog.setMessage("Login...");
     progressDialog.show();
 
     firebaseAuth.signInWithEmailAndPassword(email,password)
@@ -61,7 +61,10 @@ private void loginUser(){
                 public void onComplete(@NonNull Task<AuthResult> task) {
                  progressDialog.dismiss();
                     if(task.isSuccessful()){
-                        Toast.makeText(MainActivity.this, "Berhasil mendaftar", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Berhasil login", Toast.LENGTH_SHORT).show();
+                        Intent init = new Intent(MainActivity.this, Main2Activity.class);
+                        init.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
+                        startActivity(init);
                     }else{
                         Toast.makeText(MainActivity.this, "gagal, coba lagi", Toast.LENGTH_SHORT).show();
                     }
